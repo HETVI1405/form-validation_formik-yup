@@ -1,0 +1,89 @@
+/* Light Modern Theme */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f1f5f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Form Container */
+.form-container {
+  max-width: 480px;
+  margin: 50px auto;
+  padding: 30px 35px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+  font-size: 22px;
+}
+
+/* Labels */
+.form-container label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 500;
+}
+
+/* Inputs and Select */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+.form-container input:focus,
+.form-container select:focus {
+  border-color: #4f46e5;
+}
+
+/* Radio Buttons */
+.gender-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.gender-options label {
+  font-weight: normal;
+}
+
+/* Error Messages */
+.form-container p {
+  color: #d32f2f;
+  font-size: 13px;
+  margin: 5px 0 0;
+}
+
+/* Buttons */
+.form-container button {
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #4338ca;
+}
